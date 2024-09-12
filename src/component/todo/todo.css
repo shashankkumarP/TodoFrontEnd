@@ -1,0 +1,22 @@
+/* Center-align the Todo App */
+.todo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  .todo-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .todo-list li {
+    margin: 10px 0;
+  }
+  
+  input, button {
+    margin: 5px;
+  }
